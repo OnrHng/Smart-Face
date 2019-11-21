@@ -4,6 +4,7 @@ import Clarifai from'clarifai';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
+import Signin from './components/Signin/Signin';
 import ImageLink from './components/ImageLink/ImageLink';
 import Info from './components/Info/Info';
 import Image from './components/Image/Image';
@@ -58,6 +59,7 @@ class App extends Component {
       <div>
         <Particles className='particles' />
         <Navigation />
+        <Signin />
         <Logo />
         <Info />
         <ImageLink 
