@@ -4,6 +4,13 @@
 In the project you can find a Face Recognation App that created with Clarifai API....
 You don't need to wait for testing.. Just Upload a foto which you would like.
 
+## We try to connecting with database
+
+Now we connectong jsut for Sign In form
+
+
+
+## For Running
   1. Clone this repo
   2. Run `npm install`
   3. Run `npm start`
