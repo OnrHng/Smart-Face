@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-const Info = () => {
+const Info = ({name, entries}) => {
 	return(
 		<div>
 		 <div className='white f3 center'>
-		  {'OnrHng, your current info is ...'}
+		  {`${name}, your current entry count ...`}
 		 </div>
 		 <div className='white f1 center'>
-		  {'#3'}
+		  {entries}
 		 </div>
 		</div>	
 	)

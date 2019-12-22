@@ -28,8 +28,9 @@ class Signin extends React.Component {
 			})
 		})
 			.then(response => response.json())
-			.then(data => {
-				if(data === 'success') {
+			.then(user => {
+				if(user.id) {
+					this.props.loadUser(user);
 					this.props.onRouteChange('home');
 				}
 			})
@@ -74,7 +75,10 @@ class Signin extends React.Component {
 				      />
 				    </div>
 				    <div className="lh-copy mt3 center">
-				      <p  onClick={() => onRouteChange('register')} className="f4 link dim black db pointer ">Register</p>
+				      <p  
+				      	onClick={() => onRouteChange('register')} 
+				      	className="f4 link dim black db pointer ">Register
+				      </p>
 				    </div>
 				  </div>
 				</main>
