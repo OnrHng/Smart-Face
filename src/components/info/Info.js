@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Info = ({name, entries}) => {
 	return(
 		<div>
