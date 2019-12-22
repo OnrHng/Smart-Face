@@ -7,6 +7,9 @@ You don't need to wait for testing.. Just Upload a foto which you would like.
 ## We try to connecting with database
 
 Now we connectong jsut for Sign In form
+and also register working now..
+
+Face recognation is also accounting
 
 
 
