@@ -40,13 +40,13 @@ class Signin extends React.Component {
 	render () { 
 		const {onRouteChange} = this.props;
 		return(
-			<article className="br3 ba b--black-10 mv4 w-150 w-50-m w-25-l mw5 shadow-5 center">
-				<main className="pa4 black-80">
+			<article className="br3 ba b--black-10 mv4 w-300 w-50-m w-25-l mw5 shadow-5 center">
+				<main className="pa5 black-80">
 				  <div className="measure">
 				    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-				      <legend className="f2 fw6 ph0 mh0 center">Sign In</legend>
+				      <legend className="f1 fw5 ph0 mh0 center">Sign In</legend>
 				      <div className="mt3 w-200">
-				        <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+				        <label className="db fw5 lh-copy f4" htmlFor="email-address">Email</label>
 				        <input
 				        	onChange= {this.onEmailChange} 
 				        	className="pa2 input-reset ba bg-transparent hover-white " 
@@ -55,8 +55,8 @@ class Signin extends React.Component {
 				        	id="email-address"
 				        />
 				      </div>
-				      <div className="mv3 w-200">
-				        <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
+				      <div className="mv3 w-300">
+				        <label className="db fw5 lh-copy f4" htmlFor="password">Password</label>
 				        <input 
 				        	onChange= {this.onPasswordChange} 
 				        	className="pa2 input-reset ba bg-transparent hover-white " 
@@ -69,7 +69,7 @@ class Signin extends React.Component {
 				    <div className="center">
 				      <input 
 				      	onClick={this.onSubmitSignIn}
-				      	className="b ph3 br2 pv2 input-reset ba b--black bg-transparent pointer f6 dib" 
+				      	className="b ph3 br2 pv2 input-reset ba b--black bg-transparent pointer f4 dib" 
 				      	type="submit" 
 				      	value="Sign in"
 				      />
