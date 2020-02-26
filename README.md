@@ -5,6 +5,7 @@ You don't need to wait for testing.. Just Upload a foto which you would like.
 
 ## We connecting database with smart-face-ap
 
+connected DB with Postgresql using Knex
 connected now Sign in form
 register form also is working now and Face recognation image is counting
 Now connecting with all component into server and DB.
