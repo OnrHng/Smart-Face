@@ -1,6 +1,9 @@
 {
   "name": "smart-face",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.13.1"
+  },
   "private": true,
   "dependencies": {
     "clarifai": "^2.9.1",
