@@ -12,4 +12,5 @@ const Info = ({name, entries}) => {
 		</div>	
 	)
 }
+
 export default Info; 

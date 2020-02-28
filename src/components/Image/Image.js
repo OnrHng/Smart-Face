@@ -11,4 +11,5 @@ const Image = ({ imageUrl, box }) => {
   </div>	
 	)
 }
+
 export default Image; 

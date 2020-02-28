@@ -16,4 +16,6 @@ const Navigation = ({ onRouteChange, isSignIn }) => {
 	  			)
 	    }
 }
+
+
 export default Navigation; 
