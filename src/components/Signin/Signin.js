@@ -88,6 +88,4 @@ class Signin extends React.Component {
 	}
 	
 }
-
-
 export default Signin; 

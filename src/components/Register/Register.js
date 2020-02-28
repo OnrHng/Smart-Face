@@ -39,9 +39,9 @@ class Register extends React.Component {
 					this.props.onRouteChange('home');
 				}
 			})
-			.catch(err=> console.log('unexpected type'));
-		
+			.catch(err=> console.log('unexpected type'));		
 	}
+	
 	render() {
 		return(
 			<article className="br3 ba b--black-10 mv5 w-300 w-100-m w-25-l mw5 shadow-5 center">
@@ -95,6 +95,4 @@ class Register extends React.Component {
 		)
 	}
 }
-
-
 export default Register; 

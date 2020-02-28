@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Navigation = ({ onRouteChange, isSignIn }) => {
 	  if (isSignIn) {
 	  	return (
@@ -16,6 +15,4 @@ const Navigation = ({ onRouteChange, isSignIn }) => {
 	  			)
 	    }
 }
-
-
 export default Navigation; 

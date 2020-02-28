@@ -21,5 +21,4 @@ const ImageLink = ({onInputChange, onButtonSubmit}) => {
   </div>	
 	)
 }
-
 export default ImageLink; 
