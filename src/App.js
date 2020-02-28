@@ -4,9 +4,9 @@ import './App.css';
 import Logo from './components/logo/logo';
 import Signin from './components/signin/signin';
 import Register from './components/register/register';
+import Image from './components/image/image';
 import ImageLink from './components/imagelink/imagelink';
 import Info from './components/info/info';
-import Image from './components/image/image';
 import Navigation from './components/navigation/navigation';
 
 const initialState = {
