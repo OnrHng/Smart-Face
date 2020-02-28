@@ -1,13 +1,13 @@
 import React,  {Component} from 'react';
 import Particles from 'react-particles-js';
 import './App.css';
-import Logo from '../components/logo/logo';
-import Signin from '../components/signin/signin';
-import Register from '../components/register/register';
-import ImageLink from '../components/imagelink/imagelink';
-import Info from '../components/info/info';
-import Image from '../components/image/image';
-import Navigation from '../components/navigation/navigation';
+import Logo from './components/logo/logo';
+import Signin from './components/signin/signin';
+import Register from './components/register/register';
+import ImageLink from './components/imagelink/imagelink';
+import Info from './components/info/info';
+import Image from './components/image/image';
+import Navigation from './components/navigation/navigation';
 
 const initialState = {
    input:'',
