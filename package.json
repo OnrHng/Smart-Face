@@ -35,5 +35,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "In the project you can find a Face Recognation App that created with Clarifai API....\r You don't need to wait for testing.. Just Upload a foto which you would like.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnrHng/Smart-Face.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnrHng/Smart-Face/issues"
+  },
+  "homepage": "https://github.com/OnrHng/Smart-Face#readme"
 }
