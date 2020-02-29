@@ -3,8 +3,9 @@
 In the project you can find a Face Recognation App that created with Clarifai API....
 You don't need to wait for testing.. Just Upload a foto which you would like.
 
-## We connecting database with smart-face-ap
+## DATABASE and SERVER
 
+We connecting database and server with smart-face-api which you can find in my [smart-face-api](https://github.com/OnrHng/smart-face-api) repository
 connected DB with Postgresql using Knex
 connected now Sign in form
 register form also is working now and Face recognation image is counting
@@ -20,6 +21,5 @@ Face recognation is also accounting
   4. You must add your own API key in the `src/App.js` file to connect to Clarifai.
   5. You can grab Clarifai API key [here](https://www.clarifai.com/)
 
-#live
-
+##live
 you can also check it out how it is working on online [here](https://magicface-detection.herokuapp.com/)
