@@ -19,3 +19,7 @@ Face recognation is also accounting
   3. Run `npm start`
   4. You must add your own API key in the `src/App.js` file to connect to Clarifai.
   5. You can grab Clarifai API key [here](https://www.clarifai.com/)
+
+#live
+
+you can also check it out how it is working on online [here](https://magicface-detection.herokuapp.com/)
